@@ -1,0 +1,51 @@
+
+.paneliniciar{
+    background: rgb(255, 255, 255);
+    border: solid 2px rgb(111, 78, 78);
+    padding: 30px;
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.574) 20px 0px 20px 50px;
+}
+
+.fondoiniciar{
+    height: auto;
+    width: 70%;
+    border-bottom: 2px rosybrown dashed;
+}
+
+h1{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: rgb(72, 52, 52);
+
+}
+
+fieldset{
+    color: rgb(72, 52, 52);
+}
+
+.boton{
+    background: rgb(111, 78, 78);
+    height: auto;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+    border: rosybrown;
+    box-shadow: black 8px 8px 20px ;
+}
+
+button:hover{
+    border-radius: 10px;
+    background-color: rosybrown;
+    color: rgb(111, 78, 78);
+}
+
+input{
+    border-radius: 10px;
+    background-color: rgba(199, 197, 197, 0.487);
+}
+
