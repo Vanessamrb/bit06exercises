@@ -23,7 +23,6 @@ border-radius: 20px;
 display: flex;
 display: inline-block;
 justify-content: center;
-
 margin-left: 30%;
 
 }
@@ -49,3 +48,74 @@ input{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
+
+/* Aqui son las medidas para celular*/
+@media screen and (min-width: 0px) and (max-width:390px){
+    
+    body{
+        background: url(../img/fondocel.png);
+        background-size: cover;    
+    }   
+    .encabezado{
+        height:auto;
+        width: 300px;
+        padding: 10px;  
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: rosybrown 4px solid;
+        border-radius: 20px;
+        margin: 30px;
+        
+    }
+
+    .actividades{
+        width: 200px;
+        text-align: center;
+        background-color: rgba(188, 143, 143, 0.757);
+        padding: 20px;
+        border:  rgba(105, 102, 102, 0.733) 2px solid;
+        border-radius: 20px;
+        display: inline-block;
+        justify-content: center;
+        margin-left: 90px;
+        }
+}
+/* aqui son las medidas para Tableta */
+@media screen and (min-width: 391px) and (max-width:820px){
+    
+    body{
+        background-image: url(../img/fondoinicio.png);
+        background-attachment: fixed; 
+    }   
+
+
+    .encabezado{
+        width: 700px;
+        height: auto;
+        padding: 20px; 
+        margin-left: 5px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: rosybrown 4px solid;
+        border-radius: 20px;
+           
+    }
+
+    .actividades{
+        width: 500px;
+        height: 230px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(188, 143, 143, 0.757);
+        padding: 20px;
+        border:  rgba(105, 102, 102, 0.733) 2px solid;
+        border-radius: 20px;
+        margin-left: 100px;
+        }
+
+        body.container{
+        margin: 5%;
+        }
+}
+
