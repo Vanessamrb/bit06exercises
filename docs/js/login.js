@@ -68,7 +68,7 @@ if (
     obj.username === permitido.username &&
     parseInt(obj.password) === permitido.password &&
     obj.accept === permitido.accept ) {
-    window.open('https://j/bit06exercises/exercises.html', '_self');   
+    window.open('https://vanessamrb.github.io/bit06exercises/exercises.html', '_self');   
 }else{
     alert('Acceso Denegado. Datos incorrectos. ', 'warning');; 
 }
